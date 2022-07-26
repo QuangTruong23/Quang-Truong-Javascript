@@ -1,0 +1,37 @@
+.enterprise-section {
+  text-align: center;
+  background: var(--background-linear-color);
+}
+
+.enterprise-title {
+  text-transform: uppercase;
+  font-size: var(--r24);
+  font-family: var(--poppins-font);
+  font-weight: 600;
+  color: var(--text-color);
+  line-height: 3rem;
+}
+
+.enterprise-text {
+  font-family: var(--poppins-font);
+  font-size: var(--r34);
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.enterprise-desc {
+  font-family: var(--poppins-font);
+  font-size: var(--r18);
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.enterprise-btn {
+  font-family: var(--montseratt-font);
+  font-size: var(--r18);
+  color: var(--white-color);
+  padding: 10px;
+  background-color: var(--light-green-color);
+  border-radius: 8px;
+  cursor: pointer;
+}

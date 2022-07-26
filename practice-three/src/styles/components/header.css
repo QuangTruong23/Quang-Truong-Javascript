@@ -1,0 +1,52 @@
+.navbar-list-link {
+  font-family: var(--poppins-font);
+  font-size: var(--r16);
+  font-weight: 400;
+  color: var(--dark-gray);
+  margin-right: 0.5rem;
+  text-transform: capitalize;
+}
+
+.navbar-list-link:hover {
+  letter-spacing: 0.2rem;
+  transition: ease-out 0.5s;
+}
+
+.nav-sign-in {
+  font-family: var(--poppins-font);
+  font-size: var(--r16);
+  font-weight: 600;
+  color: var(--dark-gray);
+  padding: 0.5rem 1rem;
+  background-color: var(--white-color);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.nav-sign-up {
+  font-family: var(--poppins-font);
+  font-size: var(--r16);
+  font-weight: 600;
+  color: var(--white-color);
+  padding: 0.5rem 1rem;
+  background-color: var(--light-green-color);
+  border-radius: 4px;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.light-dark-btn {
+  cursor: pointer;
+  margin: 0.5rem 0;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767.98px) {
+  .btn-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+}

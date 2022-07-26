@@ -1,0 +1,9 @@
+.navbar-list {
+  margin: 0.5rem 0;
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar-list {
+    margin-right: 0.5rem;
+  }
+}

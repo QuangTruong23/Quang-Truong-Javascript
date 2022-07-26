@@ -1,0 +1,17 @@
+.question-ask-wrap {
+  padding: 0 1.5rem;
+}
+
+.question-desc {
+  margin: 1rem 4rem 2rem;
+}
+
+.question-icon {
+  margin-right: 0.5rem;
+}
+
+@media only screen and (min-width: 1440px) {
+  .question-ask-wrap {
+    margin: 0 15rem;
+  }
+}
