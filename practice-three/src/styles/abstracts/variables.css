@@ -1,0 +1,25 @@
+:root {
+  --r76: calc((76 / var(--base) * 1rem));
+  --r40: calc((40 / var(--base) * 1rem));
+  --r34: calc((34 / var(--base) * 1rem));
+  --r30: calc((30 / var(--base) * 1rem));
+  --r32: calc((32 / var(--base) * 1rem));
+  --r24: calc((24 / var(--base) * 1rem));
+  --r20: calc((20 / var(--base) * 1rem));
+  --r28: calc((18 / var(--base) * 1rem));
+  --r16: calc((16 / var(--base) * 1rem));
+  --base: 16;
+  --dark-blue: #173A56;
+  --blue-white: #BCD0E5;
+  --light-green-color: #02897a;
+  --text-color: #22343d;
+  --white-gray: #AFAFAF;
+  --dark-gray: #22343D;
+  --light-gray: #e7e7e7;
+  --white-color: #fff;
+  --border-color: #bcd0e5;
+  --background-linear-color: linear-gradient(180deg,#f7f7f7 0%,rgba(247, 247, 247, 0) 100%);
+  --poppins-font: "Poppins", sans-serif;
+  --montseratt-font: "Montserrat", sans-serif;
+  --inter-font: 'Inter', sans-serif;
+}

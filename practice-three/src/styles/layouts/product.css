@@ -1,0 +1,38 @@
+.product-section {
+  padding: 4rem 3rem;
+}
+
+.product-benefit {
+  padding-right: 2rem;
+  margin-bottom: 1rem;
+}
+
+.product-benefit-icon {
+  margin-right: 1rem;
+}
+
+.study-img {
+  margin: 2rem 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .product-content {
+    margin: 3rem 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .product-img {
+    margin-right: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .product-benefit-wrap {
+    padding: 1rem 6rem 1rem 4rem;
+  }
+
+  .product-img {
+    padding: 2rem 0 2rem 10rem;
+  }
+}
